@@ -1,0 +1,93 @@
+[
+     {
+          "Form_label": "Login form",
+          "fields": [
+               {
+                    "field_id": "username",
+                    "field_label": "Username",
+                    "field_placeholder": "Enter Username",
+                    "field_type": "text",
+                    "field_value": ""
+               },
+               {
+                    "field_id": "email",
+                    "field_label": "Email Address",
+                    "field_placeholder": "Enter email",
+                    "field_type": "email"
+               },
+               {
+                    "field_id": "password",
+                    "field_label": "Password",
+                    "field_placeholder": "Enter Password",
+                    "field_type": "password"
+               },
+               {
+                    "field_id": "confirmpasssword",
+                    "field_label": "Confirm Passsword",
+                    "field_type": "password",
+                    "field_placeholder": "Enter Password",
+                    "field_value": ""
+               },
+               {
+                    "field_id": "submit",
+                    "field_type": "submit",
+                    "field_value": "Submit"
+               }
+          ]
+     },
+     {
+          "Form_label": "Login form",
+          "fields": [
+               {
+                    "field_id": "english_name",
+                    "field_label": "Name",
+                    "field_mandatory": "yes",
+                    "field_placeholder": "Enter name",
+                    "field_type": "text",
+                    "field_value": ""
+               },
+               {
+                    "field_id": "email",
+                    "field_label": "Email",
+                    "field_mandatory": "yes",
+                    "field_placeholder": "Enter email",
+                    "field_type": "email"
+               },
+               {
+                    "field_id": "employment",
+                    "field_label": "Employment desired",
+                    "field_value": "Part-Time",
+                    "field_mandatory": "yes",
+                    "field_options": [
+                         {
+                              "option": "Full-Time"
+                         },
+                         {
+                              "option": "Part-Time"
+                         }
+                    ],
+                    "field_type": "select"
+               },
+               {
+                    "field_id": "contact",
+                    "field_label": "Contact No.",
+                    "field_mandatory": "yes",
+                    "field_placeholder": "Enter contact no.",
+                    "field_type": "text"
+               },
+               {
+                    "field_id": "driving_license",
+                    "field_label": "I confirm to have driving license.",
+                    "field_type": "checkbox",
+                    "field_value": "checked"
+               },
+               {
+                    "field_id": "identity",
+                    "field_label": "Driving License No.",
+                    "field_mandatory": "yes",
+                    "field_placeholder": "e.g. 012 345 678",
+                    "field_type": "text"
+               }
+          ]
+     }
+]
