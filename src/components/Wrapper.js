@@ -8,6 +8,7 @@ import "./Wrapper.css";
 
 const Wrapper = () => {
   const { data } = useContext(Formcontext);
+  console.log(data);
   const formdata = data.map((item, index) => {
     return (
       <div key={index}>
